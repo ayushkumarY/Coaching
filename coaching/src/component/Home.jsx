@@ -223,6 +223,57 @@ function Home() {
         {/* 3rd section starts here */}
         <section>
           <SliderStories />
+          <div className="h-[18rem] flex flex-col items-center font-Roboto py-9">
+            <h1 className="text-2xl  font-bold tracking-wide">
+              Subscribe Email
+            </h1>
+            <div className="border-4 border-red-700 w-[5rem] mt-2 "></div>
+            <p className="flex flex-col items-center tracking-wide mt-4">
+              By subscribing you will receive information about how to change
+              your mindset,
+              <br />
+              <span>remove limitations and develop unshakable confidence.</span>
+            </p>
+            <div className="flex items-center justify-center shadow-[0px_7px_10px_0px_#718096] mt-7 rounded-l-lg rounded-r-lg w-[33rem]">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                className="outline-none h-10 w-[24rem] px-5 placeholder-black rounded-l-lg"
+              />
+              <button className="bg-red-700 h-10 w-36 uppercase text-white rounded-r-lg  ">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </section>
+        {/* last section */}
+        <section>
+          <div className="bg-red-50 px-10 py-10">
+            <h1 className="text-3xl font-Acme font-bold text-red-700 pb-2 ">
+              MEKOSH
+            </h1>
+            <p className="py-1">
+              <img src="Image/call.png" alt="" className="inline h-5" />
+              <p className="inline text-xl ml-4">+91-0000000000</p>
+            </p>
+            <p className="py-1">
+              <img src="Image/email.png" alt="" className="inline h-5" />
+              <p className="inline text-xl ml-4">info@mekosh.com</p>
+            </p>
+            <p className="py-1">
+              <img src="Image/pin.png" alt="" className="inline h-5" />
+              <p className="inline text-xl ml-4">20-A1,XYZ Road,India</p>
+            </p>
+          </div>
+          <div className="bg-black flex justify-end px-10 py-4">
+            <p className="text-white text-xl tracking-wide">Connect us on :</p>
+            <img src="Image/facebook.png" alt="" className="h-5 mx-3 my-1 " />
+            <img src="Image/twitter.png" alt="" className="h-5 mx-3 my-1 " />
+            <img src="Image/instagram.png" alt="" className="h-5 mx-3 my-1 " />
+            <a href="https://www.linkedin.com/">
+              <img src="Image/linkedin.png" alt="" className="h-5 mx-3 my-1 " />
+            </a>
+          </div>
         </section>
       </div>
     </>
