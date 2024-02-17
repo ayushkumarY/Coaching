@@ -39,8 +39,8 @@ function Home() {
         </div>
         {/* 1st section starts here */}
         <section className="flex flex-col items-center justify-center relative h-[49rem]">
-          <div className="flex items-center justify-center absolute bottom-[40rem] left-48">
-            <div className="h-[18rem] w-[75rem] flex bg-white shadow-[0px_7px_4px_0px_#00000024]">
+          <div className="flex items-center justify-center absolute bottom-[40rem] left-48 ">
+            <div className="h-[18rem] w-[75rem] flex bg-white shadow-[0px_7px_4px_0px_#00000024] ">
               <div className="w-[25rem] flex flex-col items-center justify-evenly px-7 py-3 ">
                 <img src="Image/ear.png" className="h-14" alt="" />
                 <h4>Active Listening</h4>
